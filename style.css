@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f7f6; /* Màu nền nhẹ nhàng */
+    color: #333;
+}
+
+.calendar-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #007bff; /* Màu xanh nổi bật */
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+.date-display {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #e9ecef; /* Nền cho hiển thị ngày */
+}
+
+.date-display.lunar {
+    background-color: #ff5733; /* Màu cam/đỏ cho Âm Lịch */
+    color: white;
+}
+
+.date-label {
+    margin: 0;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.date-main {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+
+.date-display.lunar .date-main {
+    font-size: 2.5em;
+}
